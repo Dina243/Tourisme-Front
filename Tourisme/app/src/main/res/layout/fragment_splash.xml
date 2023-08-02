@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!-- ImageView pour afficher l'image de démarrage -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/mada1"
+        android:contentDescription="@string/startup_image_description"/>
+
+    <!-- TextView pour afficher le texte animé(glissage vers le haut) -->
+    <TextView
+        android:id="@+id/animated_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/bienvenue_dans_made_gascar"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+</LinearLayout>
