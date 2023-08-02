@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Tourisme</string>
+    <string name="startup_image_description">Startup Image</string>
+    <string name="bienvenue_dans_made_gascar">Bienvenue dans MADE à GASCAR</string>
 </resources>
