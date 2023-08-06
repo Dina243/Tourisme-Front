@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- button_background.xml -->
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+        <solid android:color="#03A9F4"/> <!-- Couleur du bouton, vous pouvez changer la couleur selon vos préférences -->
+        <corners android:radius="8dp"/> <!-- Pour des coins arrondis, ajustez le rayon selon vos préférences -->
+    </shape>
+
+</selector>
